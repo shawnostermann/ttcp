@@ -1,0 +1,14 @@
+#
+#	$Id: Makefile.sunos4,v 1.1 2001/05/07 14:09:10 sdo Exp $
+#
+
+PROG=	ttcp
+MAN1=	ttcp.0
+BINDIR=	/usr/local/bin
+MANDIR=	/usr/local/man/cat
+
+CFLAGS=-O
+
+ttcp: ttcp.o
+
+ttcp.o: Makefile
